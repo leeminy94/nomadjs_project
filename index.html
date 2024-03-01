@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final_project_2m0815</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div id="body_wraaper">
+
+        <img class="main_logo" src="/img/logo.png" alt="">
+
+        
+        <!--현재시간-->
+        <div id="time_wrap">
+            <h1><i class="fa fa-clock-o" aria-hidden="true"></i> Current time</h1>
+            <h2 id="clock"></h2>
+        </div>
+
+        <!--날씨정보-->
+        <div id="weather_wrap">
+            <h1><i class="fa fa-cloud" aria-hidden="true"></i> Current weather</h1>
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+      
+        
+        <!--로그인-->
+        <div id="login_wrap">
+            <h1><i class="fa fa-check-circle" aria-hidden="true"></i> Login</h1>
+            <form class="hidden" id="login-form">
+                <input required maxlength="10" type="text" placeholder="What is your name?" />
+                <input type="submit" value="login" />
+            </form>
+            <h1 id="greeting" class="hidden"></h1>
+        </div>
+       
+
+        <!--todo리스트-->
+        <div class="todo-box" id="todo_wrap">
+            <h1><i class="fa fa-pencil-square-o" aria-hidden="true"></i> My ToDoList</h1>
+            <form id="todo-form">
+                <input type="text" maxlength="20" placeholder="Write To Do" required/>
+                <button>add</button>
+            </form>
+            <ul id="todo-list"></ul>
+        </div>
+        
+       
+    </div>
+
+    <script src="/js/clock.js"></script>
+    <script src="/js/login.js"></script>
+    <script src="/js/todolist.js"></script>
+    <script src="/js/background.js"></script>
+    <script src="/js/weather.js"></script>
+</body>
+</html>
