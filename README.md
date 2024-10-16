@@ -7,4 +7,4 @@
 #### 노마드코더 바닐라 JS 챌린지 47기 졸업작품, 우수작품 선정
 #### HTML, CSS, JAVASCRIPT 로 작업
 
-#### [https://www.tongtongmall.net/main](https://leeminy94.github.io/nomadjs_project/)
+#### https://leeminy94.github.io/nomadjs_project/
